@@ -1010,24 +1010,25 @@ class DroneControlWindow(QWidget):
 
         # ---- ICON PATHS ----
         ICONS = {
-            "connect":  "images/connect.svg",
-            "takeoff":  "images/Drone Take off.svg",
-            "land":     "images/Drone Landing.svg",
-            "home":     "images/home.svg",
-            "up":       "images/climb.svg",
-            "down":     "images/Descend.svg",
-            "forward":  "images/forward arrow.svg",
-            "back":     "images/back arrow.svg",
-            "left":     "images/left arrow.svg",
-            "right":    "images/right arrow.svg",
-            "turn_l":   "images/Yaw left.svg",
-            "turn_r":   "images/Yaw right.svg",
-            "flip_l":   "images/Flip Left.svg",
-            "flip_r":   "images/Flip Right.svg",
-            "flip_f":   "images/Forward Flip.svg",
-            "flip_b":   "images/Backward Flip.svg",
-            "stream":   "images/stream.svg",
+            "connect":  resource_path("images", "connect.svg"),
+            "takeoff":  resource_path("images", "drone_takeoff.svg"),
+            "land":     resource_path("images", "Drone Landing.svg"),
+            "home":     resource_path("images", "home.svg"),
+            "up":       resource_path("images", "climb.svg"),
+            "down":     resource_path("images", "Descend.svg"),
+            "forward":  resource_path("images", "forward arrow.svg"),
+            "back":     resource_path("images", "back arrow.svg"),
+            "left":     resource_path("images", "left arrow.svg"),
+            "right":    resource_path("images", "right arrow.svg"),
+            "turn_l":   resource_path("images", "Yaw left.svg"),
+            "turn_r":   resource_path("images", "Yaw right.svg"),
+            "flip_l":   resource_path("images", "Flip Left.svg"),
+            "flip_r":   resource_path("images", "Flip Right.svg"),
+            "flip_f":   resource_path("images", "Forward Flip.svg"),
+            "flip_b":   resource_path("images", "Backward Flip.svg"),
+            "stream":   resource_path("images", "stream.svg"),
         }
+
 
         # =========================
         # Controls grid
