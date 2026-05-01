@@ -1011,7 +1011,7 @@ class DroneControlWindow(QWidget):
         # ---- ICON PATHS ----
         ICONS = {
             "connect":  resource_path("images", "connect.svg"),
-            "takeoff":  resource_path("images", "drone_takeoff.svg"),
+            "takeoff":  resource_path("images", "Drone Take off.svg"),
             "land":     resource_path("images", "Drone Landing.svg"),
             "home":     resource_path("images", "home.svg"),
             "up":       resource_path("images", "climb.svg"),
